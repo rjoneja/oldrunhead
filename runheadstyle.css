@@ -12,23 +12,23 @@ body {
 
 h1 {
   color: var(--runheadgold-color);
-  font-size:80px;
-  margin-left: 20px;
+  font-size:80vw;
+  margin-left: 20vw;
   font-family: "Open Sans", Helvetica, sans-serif;
 
 }
 
 h2 {
   color: var(--runheadgold-color);
-  font-size:20px;
+  font-size:20vw;
   font-weight: lighter;
-  margin-left: 20px;
+  margin-left: 20vw;
   font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 img {
   border-radius: 8px;
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
