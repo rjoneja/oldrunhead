@@ -18,12 +18,35 @@ h1 {
 
 }
 
-h2 {
+p {
+ color: var(--runheadgold-color);
+  font-size:12px;
+  line-height: 1.25;
+  font-weight: lighter;
+  margin-left: 1vw;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+@media (min-width: 641px) {
+    p {
+  color: var(--runheadgold-color);
+  font-size:16px;
+  font-weight: lighter;
+  line-height: 1.4;
+  margin-left: 6px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+    }
+}
+
+/*p {
   color: var(--runheadgold-color);
   font-size:2vw;
   font-weight: lighter;
   margin-left: 2vw;
   font-family: "Open Sans", Helvetica, sans-serif;
+}*/
+
+a {
+  color: yellow;
 }
 
 img {
@@ -112,6 +135,59 @@ img {
   background-color: var(--runheadgold-color);
   color: var(--runheadlight-color);
 }
+
+
+
+/*Base Mobile Layout*/
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#main-content, #sidebar-left, #sidebar-right {
+	width: 100%;
+	float: left;
+}
+
+/*3 Column Layout*/
+@media only screen and (min-width: 1024px) {
+	.wrap {
+		width: 1024px;
+		margin: 0 auto;
+	}
+	
+	#main-content {
+		width: 70%;
+		float: left;
+	}
+	
+	#sidebar-left {
+		width: 0%;
+		float: left;
+	}
+	
+	#sidebar-right {
+		width: 25%;
+		float: left;
+	}
+}
+
+/*Wide Layout*/
+@media only screen and (min-width: 1200px) {
+	.wrap {
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
 
